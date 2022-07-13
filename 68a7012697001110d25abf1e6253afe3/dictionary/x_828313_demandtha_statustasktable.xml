@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="StatusTaskTable" max_length="40" name="x_828313_demandtha_statustasktable" sizeclass="30" type="collection">
+        <element choice="3" default="GSM" display="true" label="Business Segment" max_length="40" name="business_units" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="GSM" sequence="0" value="GSM"/>
+                <element inactive_on_update="false" label="HQTRS FINANCE" sequence="1" value="HQTRS FINANCE"/>
+                <element inactive_on_update="false" label="HQTRS HR" sequence="2" value="HQTRS HR"/>
+                <element inactive_on_update="false" label="HQTRS IT" sequence="3" value="HQTRS IT"/>
+                <element inactive_on_update="false" label="HQTRS OGC" sequence="4" value="HQTRS OGC"/>
+                <element inactive_on_update="false" label="HQTRS SD" sequence="5" value="HQTRS SD"/>
+                <element inactive_on_update="false" label="ISC" sequence="6" value="ISC"/>
+                <element inactive_on_update="false" label="ITD" sequence="7" value="ITD"/>
+                <element inactive_on_update="false" label="LFS" sequence="8" value="LFS"/>
+                <element inactive_on_update="false" label="SWC" sequence="9" value="SWC"/>
+            </choice>
+        </element>
+        <element choice="3" default="null" label="Cloud Team" mandatory="true" max_length="40" name="cloud_team" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cloud Operations" sequence="1"/>
+                <element inactive_on_update="false" label="Cloud Platforms" sequence="2"/>
+                <element inactive_on_update="false" label="Cloud Transformations" sequence="3"/>
+            </choice>
+        </element>
+        <element default="NA" label="Cost Center" max_length="40" name="cost_center" type="string"/>
+        <element default="NA" label="DOA Approver" max_length="40" name="doa_approver" type="string"/>
+        <element default="NA" label="DOA Limit" max_length="40" name="doa_limit" type="string"/>
+        <element choice="3" default="demand_intake" label="Fulfillment Group" max_length="40" name="fulfillment_group" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Demand Intake" sequence="0" value="demand_intake"/>
+                <element inactive_on_update="false" label="Cloud Operations" sequence="1" value="cloud_operations"/>
+                <element inactive_on_update="false" label="Cloud Transformations" sequence="2" value="cloud_transformations"/>
+                <element inactive_on_update="false" label="Cloud Architecture" sequence="3" value="cloud_architecture"/>
+            </choice>
+        </element>
+        <element default="NA" label="Point of Contact" max_length="40" name="point_of_contact" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="1" value="new"/>
+                <element inactive_on_update="false" label="Discovering" sequence="2" value="discovering"/>
+                <element inactive_on_update="false" label="Waiting on Customer" sequence="3" value="waiting_on_customer"/>
+                <element inactive_on_update="false" label="Architecting" sequence="4" value="architecting"/>
+                <element inactive_on_update="false" label="Delivering CO" sequence="5" value="delivering_co"/>
+                <element inactive_on_update="false" label="Delivering CT" sequence="6" value="delivering_ct"/>
+                <element inactive_on_update="false" label="Lessons Learned" sequence="7" value="lessons_learned"/>
+                <element inactive_on_update="false" label="Complete" sequence="8" value="complete"/>
+            </choice>
+        </element>
+    </element>
+</database>

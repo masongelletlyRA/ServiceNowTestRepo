@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="INSERT_OR_UPDATE">
+        <name>content-type</name>
+        <rest_message display_value="Run_Pipeline_Please">75c0a68197145110d25abf1e6253af8f</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-23 16:29:49</sys_created_on>
+        <sys_id>6f61e24597145110d25abf1e6253af2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>content-type</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_update_name>sys_rest_message_headers_6f61e24597145110d25abf1e6253af2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-23 16:29:49</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_headers>
+</record_update>

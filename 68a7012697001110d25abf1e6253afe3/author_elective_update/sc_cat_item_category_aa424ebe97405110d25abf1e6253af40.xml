@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Cloud Services VTB Form">d6420ebe97405110d25abf1e6253afcf</sc_cat_item>
+        <sc_category display_value="Cloud Services">09d14e7e97405110d25abf1e6253afaf</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-16 14:26:45</sys_created_on>
+        <sys_id>aa424ebe97405110d25abf1e6253af40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cloud Services.Cloud Services VTB Form</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_update_name>sc_cat_item_category_aa424ebe97405110d25abf1e6253af40</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-16 14:26:45</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</application>
+        <file_path/>
+        <instance_id>c15b5200db18b3808aea21c4059619cd</instance_id>
+        <instance_name>dev75123</instance_name>
+        <name>sc_cat_item_category_aa424ebe97405110d25abf1e6253af40</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Cloud Services VTB Form">d6420ebe97405110d25abf1e6253afcf</sc_cat_item><sc_category display_value="Cloud Services">09d14e7e97405110d25abf1e6253afaf</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-16 14:26:45</sys_created_on><sys_id>aa424ebe97405110d25abf1e6253af40</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cloud Services.Cloud Services VTB Form</sys_name><sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package><sys_policy/><sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope><sys_update_name>sc_cat_item_category_aa424ebe97405110d25abf1e6253af40</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-16 14:26:45</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>509909232</payload_hash>
+        <record_name>Cloud Services.Cloud Services VTB Form</record_name>
+        <reverted_from/>
+        <source>68a7012697001110d25abf1e6253afe5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-16 14:26:46</sys_created_on>
+        <sys_id>a2424ebe97405110d25abf1e6253af44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1816ce8d0760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-16 14:26:46</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>2a424ebe1c40511040c777b729db1043</update_guid>
+        <update_guid_history>2a424ebe1c40511040c777b729db1043:509909232</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cloud Services.Cloud Services VTB Form">3747c23697805110d25abf1e6253af50</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-16 14:48:41</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>ce59de823aca4668a963c0aee0b8ea40</sys_id>
+        <sys_metadata>aa424ebe97405110d25abf1e6253af40</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cloud Services.Cloud Services VTB Form</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_scope_delete display_value="">1a5e3230387449049b7fe055f31f1084</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_aa424ebe97405110d25abf1e6253af40</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_aa424ebe97405110d25abf1e6253af40">a2424ebe97405110d25abf1e6253af44</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-16 14:48:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Resize VM">903712f297c05110d25abf1e6253af3d</sc_cat_item>
+        <sc_category display_value="Cloud Services">c721c67e97405110d25abf1e6253af5e</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-16 16:01:26</sys_created_on>
+        <sys_id>99f7daf297c05110d25abf1e6253af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cloud Services.Resize VM</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_update_name>sc_cat_item_category_99f7daf297c05110d25abf1e6253af4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-16 16:01:26</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</application>
+        <file_path/>
+        <instance_id>c15b5200db18b3808aea21c4059619cd</instance_id>
+        <instance_name>dev75123</instance_name>
+        <name>sc_cat_item_category_99f7daf297c05110d25abf1e6253af4e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Resize VM">903712f297c05110d25abf1e6253af3d</sc_cat_item><sc_category display_value="Cloud Services">c721c67e97405110d25abf1e6253af5e</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-16 16:01:26</sys_created_on><sys_id>99f7daf297c05110d25abf1e6253af4e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cloud Services.Resize VM</sys_name><sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package><sys_policy/><sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope><sys_update_name>sc_cat_item_category_99f7daf297c05110d25abf1e6253af4e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-16 16:01:26</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>454077383</payload_hash>
+        <record_name>Cloud Services.Resize VM</record_name>
+        <reverted_from/>
+        <source>68a7012697001110d25abf1e6253afe5</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-16 16:01:26</sys_created_on>
+        <sys_id>5df7daf297c05110d25abf1e6253af51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1816d3f7e750000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-16 16:01:26</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>95f7daf217c05110e12c4348d56dd351</update_guid>
+        <update_guid_history>95f7daf217c05110e12c4348d56dd351:454077383</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cloud Services.Resize VM">bb8a73d897501110d25abf1e6253afc8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-06-21 15:03:06</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>07ef68e8edbe42578068c51d9b3c7af9</sys_id>
+        <sys_metadata>99f7daf297c05110d25abf1e6253af4e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cloud Services.Resize VM</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_scope_delete display_value="">1a5e3230387449049b7fe055f31f1084</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_99f7daf297c05110d25abf1e6253af4e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_99f7daf297c05110d25abf1e6253af4e">5df7daf297c05110d25abf1e6253af51</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-06-21 15:03:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

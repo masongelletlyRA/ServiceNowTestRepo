@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <name>checkOverdueDates</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2022-07-12 14:03:48</run_start>
+        <run_time>1970-01-01 06:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[// -------------------------------------------------------------------------------------------------------------------------------
+// checkOverdueDates
+//
+// a scheduled script execution that will run once daily (at 12 am) and automatically label tasks based on their due date's relation with the 
+// current date. an overdue task will be marked RED, a nearly overdue task (3 days) will be marked YELLOW
+// -------------------------------------------------------------------------------------------------------------------------------
+// GET REAL DATE INFORMATION
+// 
+// create GlideDateTime object to get raw real date; convert strings to integer for later comparison
+var gdt = new GlideDateTime();
+var rawDate = gdt.getValue();
+var realYear = Number(rawDate.substring(0, 4));
+var realMonth = Number(rawDate.substring(5, 7));
+var realDay = Number(rawDate.substring(8, 10));
+gs.info('realDate: ' + realYear + '/' + realMonth + '/' + realDay);
+// -------------------------------------------------------------------------------------------------------------------------------	
+// QUERY RECORDS FROM STATUSTASKTABLE
+//
+// get gliderecord representation of our table
+var gr = new GlideRecord('x_828313_demandtha_statustasktable');
+// get today's time and date
+gr.addQuery('due_date','>=', gdt);
+gr.addQuery('due_date','<',gs.hoursAgo(-72));
+gr.addQuery('status','!=','complete');
+gr.query();
+// Write a log message for each Cloud Service Task Record
+while(gr.next()){
+    gs.info("Cloud Service Task due soon record = " + gr.number);
+}
+// -------------------------------------------------------------------------------------------------------------------------------
+// ITERATING THROUGH THE RECORDS
+//
+while(gr.next())
+{
+	// -------------------------------------------------------------------------------------------------------------------------------
+	// GET AND FORMAT RECORD OBJECT'S DATE
+	//
+	// get due date of current record object; convert strings to integer for later comparison
+	var recordDate = gr.due_date;
+	var recordYear = Number(recordDate.substring(0, 4));
+	var recordMonth = Number(recordDate.substring(5, 7));
+	var recordDay = Number(recordDate.substring(8, 10));
+	gs.info('recordDate: ' + recordYear + '/' + recordMonth + '/' + recordDay);
+	
+	// --------------------------------------------------------------------------------------------------------------------------
+	// VALIDATE THE DATE
+	//
+	// due date year before current year; mark as OVERDUE
+	if (recordYear < realYear){
+		//RED
+	}
+	// referencing the same year; continue to month comparison
+	if (recordYear == realYear){
+		// due date month before current month; mark as OVERDUE
+		if (recordMonth < realMonth){
+			//RED
+		}
+		// referencing the same month; continue to day comparison
+		if (recordMonth == realMonth){
+			// due date day before or equal to current day; mark as OVERDUE
+			if (recordDay <= realDay){
+				//RED
+			} 
+			// due date day 3 or less days away from current day; mark as NEARLY OVERDUE
+			if (recordDay - realDay){
+				//YELLOW
+				gs.info("hitYellow");
+			}
+		}
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-12 14:28:34</sys_created_on>
+        <sys_id>bb563b4f97201110d25abf1e6253af96</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>checkOverdueDates</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_update_name>sysauto_script_bb563b4f97201110d25abf1e6253af96</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-12 17:05:46</sys_updated_on>
+        <time_zone>US/Central</time_zone>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

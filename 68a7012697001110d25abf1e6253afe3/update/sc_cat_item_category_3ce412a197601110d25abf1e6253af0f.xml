@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Workflow Testing Cloud Service Form">ef9d0d3497501110d25abf1e6253af16</sc_cat_item>
+        <sc_category display_value="Cloud Services">c721c67e97405110d25abf1e6253af5e</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-07 15:07:00</sys_created_on>
+        <sys_id>3ce412a197601110d25abf1e6253af0f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Cloud Services.Workflow Testing Cloud Service Form</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_update_name>sc_cat_item_category_3ce412a197601110d25abf1e6253af0f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-07 15:11:48</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

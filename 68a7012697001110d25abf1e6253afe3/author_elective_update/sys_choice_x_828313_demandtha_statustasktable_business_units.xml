@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="business_units" table="x_828313_demandtha_statustasktable" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>business_units</element>
+            <name>x_828313_demandtha_statustasktable</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-15 20:02:32</sys_created_on>
+            <sys_id>5f85062297401110d25abf1e6253afd7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>business_units</sys_name>
+            <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+            <sys_update_name>sys_choice_x_828313_demandtha_statustasktable_business_units</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-06-15 20:02:32</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_units</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GSM</label>
+            <language>en</language>
+            <name>x_828313_demandtha_statustasktable</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-15 20:02:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b85062297401110d25abf1e6253afd7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-11 14:41:42</sys_updated_on>
+            <value>GSM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_units</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HQTRS FINANCE</label>
+            <language>en</language>
+            <name>x_828313_demandtha_statustasktable</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-15 20:05:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44364eea97c01110d25abf1e6253afd1</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-11 14:41:42</sys_updated_on>
+            <value>HQTRS FINANCE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_units</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HQTRS HR</label>
+            <language>en</language>
+            <name>x_828313_demandtha_statustasktable</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-15 20:06:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94468a2e97c01110d25abf1e6253afc0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-11 14:41:42</sys_updated_on>
+            <value>HQTRS HR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_units</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HQTRS IT</label>
+            <language>en</language>
+            <name>x_828313_demandtha_statustasktable</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-15 20:06:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0756066e97c01110d25abf1e6253af95</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-11 14:41:42</sys_updated_on>
+            <value>HQTRS IT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_units</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HQTRS OGC</label>
+            <language>en</language>
+            <name>x_828313_demandtha_statustasktable</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-15 20:06:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a766c62e97c01110d25abf1e6253af7f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-11 14:41:42</sys_updated_on>
+            <value>HQTRS OGC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_units</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HQTRS SD</label>
+            <language>en</language>
+            <name>x_828313_demandtha_statustasktable</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-15 20:06:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe76426e97c01110d25abf1e6253af2c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-11 14:41:42</sys_updated_on>
+            <value>HQTRS SD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_units</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ISC</label>
+            <language>en</language>
+            <name>x_828313_demandtha_statustasktable</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-15 20:06:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2986ce2e97c01110d25abf1e6253afb9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-11 14:41:42</sys_updated_on>
+            <value>ISC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_units</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ITD</label>
+            <language>en</language>
+            <name>x_828313_demandtha_statustasktable</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-15 20:07:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f860a6e97c01110d25abf1e6253af27</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-11 14:41:42</sys_updated_on>
+            <value>ITD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_units</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LFS</label>
+            <language>en</language>
+            <name>x_828313_demandtha_statustasktable</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-15 20:07:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9960a6e97c01110d25abf1e6253af28</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-11 14:41:42</sys_updated_on>
+            <value>LFS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>business_units</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SWC</label>
+            <language>en</language>
+            <name>x_828313_demandtha_statustasktable</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-06-15 20:07:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33964a6e97c01110d25abf1e6253af46</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-11 14:41:42</sys_updated_on>
+            <value>SWC</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

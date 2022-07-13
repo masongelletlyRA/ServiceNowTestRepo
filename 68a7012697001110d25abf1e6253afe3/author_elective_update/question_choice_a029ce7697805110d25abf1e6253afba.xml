@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>5</order>
+        <published_ref display_value="HQTRS SD">6c02c6be97405110d25abf1e6253af14</published_ref>
+        <question display_value="Business Units">ac29c67697805110d25abf1e6253af0b</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-16 14:56:40</sys_created_on>
+        <sys_id>a029ce7697805110d25abf1e6253afba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HQTRS SD</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_update_name>question_choice_a029ce7697805110d25abf1e6253afba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-16 14:56:40</sys_updated_on>
+        <text>HQTRS SD</text>
+        <value>HQTRS SD</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=a029ce7697805110d25abf1e6253afba"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</application>
+        <file_path/>
+        <instance_id>c15b5200db18b3808aea21c4059619cd</instance_id>
+        <instance_name>dev75123</instance_name>
+        <name>question_choice_a029ce7697805110d25abf1e6253afba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>5</order><published_ref display_value="HQTRS SD">6c02c6be97405110d25abf1e6253af14</published_ref><question display_value="Business Units">ac29c67697805110d25abf1e6253af0b</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-16 14:56:40</sys_created_on><sys_id>a029ce7697805110d25abf1e6253afba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HQTRS SD</sys_name><sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package><sys_policy/><sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope><sys_update_name>question_choice_a029ce7697805110d25abf1e6253afba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-16 14:56:40</sys_updated_on><text>HQTRS SD</text><value>HQTRS SD</value></question_choice><fx_price action="delete_multiple" query="id=a029ce7697805110d25abf1e6253afba"/></record_update>]]></payload>
+        <payload_hash>-1852485943</payload_hash>
+        <record_name>HQTRS SD</record_name>
+        <reverted_from/>
+        <source>68a7012697001110d25abf1e6253afe5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-16 14:56:40</sys_created_on>
+        <sys_id>2829ce7697805110d25abf1e6253afbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1816d04317c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-16 14:56:40</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>ac29ce76438051109e312c28dad3c2bb</update_guid>
+        <update_guid_history>ac29ce76438051109e312c28dad3c2bb:-1852485943</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HQTRS SD">92a9cab697805110d25abf1e6253afa2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-06-16 14:58:58</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>3dae30f554434f52b04fdf4675a80484</sys_id>
+        <sys_metadata>a029ce7697805110d25abf1e6253afba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HQTRS SD</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_parent display_value="">ac29c67697805110d25abf1e6253af0b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_scope_delete display_value="">1a5e3230387449049b7fe055f31f1084</sys_scope_delete>
+        <sys_update_name>question_choice_a029ce7697805110d25abf1e6253afba</sys_update_name>
+        <sys_update_version display_value="question_choice_a029ce7697805110d25abf1e6253afba">2829ce7697805110d25abf1e6253afbc</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-06-16 14:58:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

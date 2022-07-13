@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>3</order>
+        <published_ref display_value="Architecting">a402c6be97405110d25abf1e6253af2d</published_ref>
+        <question display_value="Status">68ff327297601110d25abf1e6253af8b</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 15:27:32</sys_created_on>
+        <sys_id>e0ff327297601110d25abf1e6253af9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Architecting</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_update_name>question_choice_e0ff327297601110d25abf1e6253af9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-11 15:27:32</sys_updated_on>
+        <text>Architecting</text>
+        <value>architecting</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=e0ff327297601110d25abf1e6253af9d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</application>
+        <file_path/>
+        <instance_id>c15b5200db18b3808aea21c4059619cd</instance_id>
+        <instance_name>dev75123</instance_name>
+        <name>question_choice_e0ff327297601110d25abf1e6253af9d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>3</order><published_ref display_value="Architecting">a402c6be97405110d25abf1e6253af2d</published_ref><question display_value="Status">68ff327297601110d25abf1e6253af8b</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-11 15:27:32</sys_created_on><sys_id>e0ff327297601110d25abf1e6253af9d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Architecting</sys_name><sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package><sys_policy/><sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope><sys_update_name>question_choice_e0ff327297601110d25abf1e6253af9d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-11 15:27:32</sys_updated_on><text>Architecting</text><value>architecting</value></question_choice><fx_price action="delete_multiple" query="id=e0ff327297601110d25abf1e6253af9d"/></record_update>]]></payload>
+        <payload_hash>813444728</payload_hash>
+        <record_name>Architecting</record_name>
+        <reverted_from/>
+        <source>68a7012697001110d25abf1e6253afe5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-11 15:27:32</sys_created_on>
+        <sys_id>64ff327297601110d25abf1e6253af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181eddf701e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-11 15:27:32</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>e8ff32728a60111033fab9a62acc9a9e</update_guid>
+        <update_guid_history>e8ff32728a60111033fab9a62acc9a9e:813444728</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Architecting">c1a10fb297601110d25abf1e6253af79</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-11 15:34:56</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>79b01d3b114d420f9fbfe0e7d9c91a01</sys_id>
+        <sys_metadata>e0ff327297601110d25abf1e6253af9d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Architecting</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_parent display_value="">68ff327297601110d25abf1e6253af8b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_scope_delete display_value="">1a5e3230387449049b7fe055f31f1084</sys_scope_delete>
+        <sys_update_name>question_choice_e0ff327297601110d25abf1e6253af9d</sys_update_name>
+        <sys_update_version display_value="question_choice_e0ff327297601110d25abf1e6253af9d">64ff327297601110d25abf1e6253af9f</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-11 15:34:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

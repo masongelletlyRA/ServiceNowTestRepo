@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>700</order>
+        <published_ref/>
+        <question display_value="Data Disk 4 Size (GB)">82f27f9097501110d25abf1e6253af5b</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-22 15:19:54</sys_created_on>
+        <sys_id>bd4373d097501110d25abf1e6253afb7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>1024</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_update_name>question_choice_bd4373d097501110d25abf1e6253afb7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-06-23 20:01:01</sys_updated_on>
+        <text>1024</text>
+        <value>1024</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=bd4373d097501110d25abf1e6253afb7"/>
+</record_update>

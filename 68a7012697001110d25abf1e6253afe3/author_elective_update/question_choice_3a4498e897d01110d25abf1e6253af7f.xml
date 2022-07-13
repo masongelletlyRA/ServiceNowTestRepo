@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>500</order>
+        <published_ref display_value="4">93063f5497501110d25abf1e6253affe</published_ref>
+        <question display_value="Number of VMs">224498e897d01110d25abf1e6253af30</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 16:55:32</sys_created_on>
+        <sys_id>3a4498e897d01110d25abf1e6253af7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_update_name>question_choice_3a4498e897d01110d25abf1e6253af7f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 16:55:32</sys_updated_on>
+        <text>4</text>
+        <value>4</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=3a4498e897d01110d25abf1e6253af7f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</application>
+        <file_path/>
+        <instance_id>c15b5200db18b3808aea21c4059619cd</instance_id>
+        <instance_name>dev75123</instance_name>
+        <name>question_choice_3a4498e897d01110d25abf1e6253af7f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>500</order><published_ref display_value="4">93063f5497501110d25abf1e6253affe</published_ref><question display_value="Number of VMs">224498e897d01110d25abf1e6253af30</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-21 16:55:32</sys_created_on><sys_id>3a4498e897d01110d25abf1e6253af7f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>4</sys_name><sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package><sys_policy/><sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope><sys_update_name>question_choice_3a4498e897d01110d25abf1e6253af7f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-21 16:55:32</sys_updated_on><text>4</text><value>4</value></question_choice><fx_price action="delete_multiple" query="id=3a4498e897d01110d25abf1e6253af7f"/></record_update>]]></payload>
+        <payload_hash>-2075841428</payload_hash>
+        <record_name>4</record_name>
+        <reverted_from/>
+        <source>68a7012697001110d25abf1e6253afe5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 16:55:32</sys_created_on>
+        <sys_id>7e4498e897d01110d25abf1e6253af81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1818730d2d00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 16:55:32</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>f24498e8bbd0111003c883f519d41881</update_guid>
+        <update_guid_history>f24498e8bbd0111003c883f519d41881:-2075841428</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="4">2384902c97d01110d25abf1e6253afb6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-06-21 16:56:42</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>2a9598bd8a4c4ba48bf5b52eaf9ba510</sys_id>
+        <sys_metadata>3a4498e897d01110d25abf1e6253af7f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_parent display_value="">224498e897d01110d25abf1e6253af30</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_scope_delete display_value="">1a5e3230387449049b7fe055f31f1084</sys_scope_delete>
+        <sys_update_name>question_choice_3a4498e897d01110d25abf1e6253af7f</sys_update_name>
+        <sys_update_version display_value="question_choice_3a4498e897d01110d25abf1e6253af7f">7e4498e897d01110d25abf1e6253af81</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-06-21 16:56:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

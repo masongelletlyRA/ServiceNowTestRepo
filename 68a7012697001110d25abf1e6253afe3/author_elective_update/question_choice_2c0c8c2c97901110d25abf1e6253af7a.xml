@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref display_value="Premium Disks">bdf0f71097501110d25abf1e6253af59</published_ref>
+        <question display_value="VM Disk Type">240c8c2c97901110d25abf1e6253af65</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 16:19:21</sys_created_on>
+        <sys_id>2c0c8c2c97901110d25abf1e6253af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Premium Disks</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_update_name>question_choice_2c0c8c2c97901110d25abf1e6253af7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 16:19:21</sys_updated_on>
+        <text>Premium Disks</text>
+        <value>premium_disks</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=2c0c8c2c97901110d25abf1e6253af7a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</application>
+        <file_path/>
+        <instance_id>c15b5200db18b3808aea21c4059619cd</instance_id>
+        <instance_name>dev75123</instance_name>
+        <name>question_choice_2c0c8c2c97901110d25abf1e6253af7a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>200</order><published_ref display_value="Premium Disks">bdf0f71097501110d25abf1e6253af59</published_ref><question display_value="VM Disk Type">240c8c2c97901110d25abf1e6253af65</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-21 16:19:21</sys_created_on><sys_id>2c0c8c2c97901110d25abf1e6253af7a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Premium Disks</sys_name><sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package><sys_policy/><sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope><sys_update_name>question_choice_2c0c8c2c97901110d25abf1e6253af7a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-21 16:19:21</sys_updated_on><text>Premium Disks</text><value>premium_disks</value></question_choice><fx_price action="delete_multiple" query="id=2c0c8c2c97901110d25abf1e6253af7a"/></record_update>]]></payload>
+        <payload_hash>-163954279</payload_hash>
+        <record_name>Premium Disks</record_name>
+        <reverted_from/>
+        <source>68a7012697001110d25abf1e6253afe5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 16:19:21</sys_created_on>
+        <sys_id>600c8c2c97901110d25abf1e6253af7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181870fb0720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 16:19:21</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>e40c8c2cf19011105b0bc5128dbb037c</update_guid>
+        <update_guid_history>e40c8c2cf19011105b0bc5128dbb037c:-163954279</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Premium Disks">087dc0ec97901110d25abf1e6253afbc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-06-21 16:25:36</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>100248d7cced4c2a8e3f02cae7102524</sys_id>
+        <sys_metadata>2c0c8c2c97901110d25abf1e6253af7a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Premium Disks</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_parent display_value="">240c8c2c97901110d25abf1e6253af65</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_scope_delete display_value="">1a5e3230387449049b7fe055f31f1084</sys_scope_delete>
+        <sys_update_name>question_choice_2c0c8c2c97901110d25abf1e6253af7a</sys_update_name>
+        <sys_update_version display_value="question_choice_2c0c8c2c97901110d25abf1e6253af7a">600c8c2c97901110d25abf1e6253af7d</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-06-21 16:25:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

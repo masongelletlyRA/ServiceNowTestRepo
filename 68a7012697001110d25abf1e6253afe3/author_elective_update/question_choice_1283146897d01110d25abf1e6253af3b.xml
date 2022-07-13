@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref display_value="Standard_E4s_v3 (4 vCPUs, 32 GiB RAM)">4b10ffdc97101110d25abf1e6253afbb</published_ref>
+        <question display_value="VM Size">5e83146897d01110d25abf1e6253af1e</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 16:52:14</sys_created_on>
+        <sys_id>1283146897d01110d25abf1e6253af3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Standard_E4s_v3 (4 vCPUs, 32 GiB RAM)</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_update_name>question_choice_1283146897d01110d25abf1e6253af3b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 16:52:14</sys_updated_on>
+        <text>Standard_E4s_v3 (4 vCPUs, 32 GiB RAM)</text>
+        <value>standard_e_4_s_v_3_4_v_cp_us_32_gi_b_ram</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=1283146897d01110d25abf1e6253af3b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</application>
+        <file_path/>
+        <instance_id>c15b5200db18b3808aea21c4059619cd</instance_id>
+        <instance_name>dev75123</instance_name>
+        <name>question_choice_1283146897d01110d25abf1e6253af3b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>400</order><published_ref display_value="Standard_E4s_v3 (4 vCPUs, 32 GiB RAM)">4b10ffdc97101110d25abf1e6253afbb</published_ref><question display_value="VM Size">5e83146897d01110d25abf1e6253af1e</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-21 16:52:14</sys_created_on><sys_id>1283146897d01110d25abf1e6253af3b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Standard_E4s_v3 (4 vCPUs, 32 GiB RAM)</sys_name><sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package><sys_policy/><sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope><sys_update_name>question_choice_1283146897d01110d25abf1e6253af3b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-21 16:52:14</sys_updated_on><text>Standard_E4s_v3 (4 vCPUs, 32 GiB RAM)</text><value>standard_e_4_s_v_3_4_v_cp_us_32_gi_b_ram</value></question_choice><fx_price action="delete_multiple" query="id=1283146897d01110d25abf1e6253af3b"/></record_update>]]></payload>
+        <payload_hash>-1654704597</payload_hash>
+        <record_name>Standard_E4s_v3 (4 vCPUs, 32 GiB RAM)</record_name>
+        <reverted_from/>
+        <source>68a7012697001110d25abf1e6253afe5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-21 16:52:14</sys_created_on>
+        <sys_id>5683146897d01110d25abf1e6253af3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181872dcc2e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-21 16:52:14</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>da8314685dd011106e5e345df6a2753c</update_guid>
+        <update_guid_history>da8314685dd011106e5e345df6a2753c:-1654704597</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Standard_E4s_v3 (4 vCPUs, 32 GiB RAM)">21b3d86897d01110d25abf1e6253affe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-06-21 16:53:00</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>05f85d104cde4da880e1ed595f223e90</sys_id>
+        <sys_metadata>1283146897d01110d25abf1e6253af3b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Standard_E4s_v3 (4 vCPUs, 32 GiB RAM)</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_parent display_value="">5e83146897d01110d25abf1e6253af1e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_scope_delete display_value="">1a5e3230387449049b7fe055f31f1084</sys_scope_delete>
+        <sys_update_name>question_choice_1283146897d01110d25abf1e6253af3b</sys_update_name>
+        <sys_update_version display_value="question_choice_1283146897d01110d25abf1e6253af3b">5683146897d01110d25abf1e6253af3d</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-06-21 16:53:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Cloud Services">c721c67e97405110d25abf1e6253af5e</category>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p>Request to create a generic IT managed VMs (Windows and Red Hat Enterprise Linux Servers) to be built in your Azure 2.0 tenant. You will need to have an Azure 2.0 Cloud Tenant before you can request your VMs, please go to the &#34;Cloud Tenant Request&#34; if you need to request a new cloud tenant.</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>semi_automated</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon>ee28123697c05110d25abf1e6253af21</icon>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>IT Managed Azure VM Request</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=903712f297c05110d25abf1e6253af3d&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method>request</request_method>
+        <roles/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Request to create a generic IT managed VMs (Windows and Red Hat Enterprise Linux Servers) to be built in your Azure 2.0 tenant.</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-16 16:01:26</sys_created_on>
+        <sys_id>903712f297c05110d25abf1e6253af3d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>IT Managed Azure VM Request</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_update_name>sc_cat_item_903712f297c05110d25abf1e6253af3d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-06-23 20:01:42</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=903712f297c05110d25abf1e6253af3d"/>
+    <fx_price action="delete_multiple" query="id=903712f297c05110d25abf1e6253af3d"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>903712f297c05110d25abf1e6253af3d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-16 16:01:26</sys_created_on>
+        <sys_id>5df7daf297c05110d25abf1e6253af47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-16 16:01:26</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>903712f297c05110d25abf1e6253af3d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-16 16:01:26</sys_created_on>
+        <sys_id>1df7daf297c05110d25abf1e6253af48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-16 16:01:26</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#94bed0</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>icon</file_name>
+        <hash>31d9e7d74b92cc56c26bee144e5d30dc28e85584b2c2bfa6d6c4326580449709</hash>
+        <image_height>243</image_height>
+        <image_width>251</image_width>
+        <size_bytes>4965</size_bytes>
+        <size_compressed>4222</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-16 16:02:20</sys_created_on>
+        <sys_id>ee28123697c05110d25abf1e6253af21</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-16 16:02:20</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>903712f297c05110d25abf1e6253af3d</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="ee28123697c05110d25abf1e6253af21">ee28123697c05110d25abf1e6253af21</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-16 16:02:20</sys_created_on>
+        <sys_id>2228123697c05110d25abf1e6253af22</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>5616</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="ee28123697c05110d25abf1e6253af21">ee28123697c05110d25abf1e6253af21</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-16 16:02:20</sys_created_on>
+        <sys_id>a228123697c05110d25abf1e6253af22</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>9</order>
+        <published_ref display_value="SWC">6c02c6be97405110d25abf1e6253af1d</published_ref>
+        <question display_value="Business Units">ac29c67697805110d25abf1e6253af0b</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-16 14:56:40</sys_created_on>
+        <sys_id>2429ce7697805110d25abf1e6253afbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SWC</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_update_name>question_choice_2429ce7697805110d25abf1e6253afbd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-16 14:56:40</sys_updated_on>
+        <text>SWC</text>
+        <value>SWC</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=2429ce7697805110d25abf1e6253afbd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</application>
+        <file_path/>
+        <instance_id>c15b5200db18b3808aea21c4059619cd</instance_id>
+        <instance_name>dev75123</instance_name>
+        <name>question_choice_2429ce7697805110d25abf1e6253afbd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>9</order><published_ref display_value="SWC">6c02c6be97405110d25abf1e6253af1d</published_ref><question display_value="Business Units">ac29c67697805110d25abf1e6253af0b</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-16 14:56:40</sys_created_on><sys_id>2429ce7697805110d25abf1e6253afbd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SWC</sys_name><sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package><sys_policy/><sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope><sys_update_name>question_choice_2429ce7697805110d25abf1e6253afbd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-16 14:56:40</sys_updated_on><text>SWC</text><value>SWC</value></question_choice><fx_price action="delete_multiple" query="id=2429ce7697805110d25abf1e6253afbd"/></record_update>]]></payload>
+        <payload_hash>-165362543</payload_hash>
+        <record_name>SWC</record_name>
+        <reverted_from/>
+        <source>68a7012697001110d25abf1e6253afe5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-16 14:56:40</sys_created_on>
+        <sys_id>a829ce7697805110d25abf1e6253afbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1816d04319d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-16 14:56:40</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>2029ce7600805110a98046b130bbf8bf</update_guid>
+        <update_guid_history>2029ce7600805110a98046b130bbf8bf:-165362543</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SWC">dea9cab697805110d25abf1e6253af71</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-06-16 14:58:57</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>589cee232f224078acd3a4fcc6073c10</sys_id>
+        <sys_metadata>2429ce7697805110d25abf1e6253afbd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SWC</sys_name>
+        <sys_package display_value="DemandThatIntake!" source="x_828313_demandtha">68a7012697001110d25abf1e6253afe3</sys_package>
+        <sys_parent display_value="">ac29c67697805110d25abf1e6253af0b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DemandThatIntake!">68a7012697001110d25abf1e6253afe3</sys_scope>
+        <sys_scope_delete display_value="">1a5e3230387449049b7fe055f31f1084</sys_scope_delete>
+        <sys_update_name>question_choice_2429ce7697805110d25abf1e6253afbd</sys_update_name>
+        <sys_update_version display_value="question_choice_2429ce7697805110d25abf1e6253afbd">a829ce7697805110d25abf1e6253afbf</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-06-16 14:58:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
